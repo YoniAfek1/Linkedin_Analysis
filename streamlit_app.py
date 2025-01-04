@@ -7,11 +7,15 @@ st.title("Company and Work Title Analysis")
 # Input Section
 st.header("Choose Your Inputs")
 
-# Text input for company name
-company = st.text_input("Enter Company Name:")
+# Define lists of companies and work titles
+companies = ["AA", "BB", "CC"]
+work_titles = ["aa", "bb", "cc"]
 
-# Text input for work title
-work_title = st.text_input("Enter Work Title:")
+# Dropdown for company selection with search functionality
+company = st.selectbox("Select a Company:", companies)
+
+# Dropdown for work title selection with search functionality
+work_title = st.selectbox("Select a Work Title:", work_titles)
 
 # Button to trigger analysis
 if st.button("Analyze"):
