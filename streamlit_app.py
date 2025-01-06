@@ -7,10 +7,12 @@ DATABRICKS_SERVER_HOSTNAME = "adb-3738544368441327.7.azuredatabricks.net"
 DATABRICKS_HTTP_PATH = "/sql/1.0/warehouses/574203acc747d7db"
 DATABRICKS_ACCESS_TOKEN = "Yoni"  # Replace with your actual token or use secure storage
 
-# Function to connect to Databricks and query unique company names
-def get_unique_company_names():
-    # Query to extract unique company names
-    query = "SELECT DISTINCT company_name FROM your_table LIMIT 100"  # Replace 'your_table' with the correct table name
+# Function to connect to Databricks and query unique values
+def get_unique_values(column_name, table_name):
+    """
+    Fetch unique values for a specified column from the Databricks table.
+    """
+    query = f"SELECT DISTINCT {column_name} FROM {table_name} LIMIT 100"
     try:
         with sql.connect(
             server_hostname=DATABRICKS_SERVER_HOSTNAME,
@@ -21,31 +23,31 @@ def get_unique_company_names():
                 cursor.execute(query)
                 rows = cursor.fetchall()
         # Convert the result into a Pandas DataFrame
-        companies = pd.DataFrame(rows, columns=["Company Name"])
-        return companies
+        values = pd.DataFrame(rows, columns=[column_name])
+        return values[column_name].tolist()
     except Exception as e:
         st.error(f"Database connection failed: {e}")
-        return pd.DataFrame()  # Return an empty DataFrame in case of error
+        return []  # Return an empty list in case of error
 
 # Streamlit App
 st.title("Role Analysis")
 
-# Fetch unique company names from the database
-st.header("Choose Company")
+# Fetch unique company names and profile names
 try:
-    companies_df = get_unique_company_names()
-    if not companies_df.empty:
-        company_list = companies_df["Company Name"].tolist()
-        company = st.selectbox("Select a Company:", company_list)
-    else:
-        st.warning("No companies found or unable to fetch data.")
+    unique_company_names = get_unique_values("company_name", "your_table")  # Replace 'your_table' with actual table name
+    unique_profile_names = get_unique_values("profile_name", "your_table")  # Replace 'your_table' with actual table name
+
+    # Display dropdowns for selecting companies and profiles
+    st.header("Choose Company and Profile")
+    selected_company = st.selectbox("Select a Company:", unique_company_names)
+    selected_profile = st.selectbox("Select a Profile:", unique_profile_names)
 except Exception as e:
     st.error(f"An error occurred: {e}")
 
 # Button to trigger analysis
 if st.button("Analyze"):
-    if 'company' in locals() and company:  # Ensure a company is selected
-        st.write(f"Analyzing data for {company}...")
+    if selected_company and selected_profile:
+        st.write(f"Analyzing data for {selected_company} and {selected_profile}...")
         # Placeholder for analysis logic
     else:
-        st.warning("Please select a company.")
+        st.warning("Please select both a company and a profile.")
