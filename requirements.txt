@@ -1,1 +1,2 @@
 streamlit
+databricks-sql-connector
