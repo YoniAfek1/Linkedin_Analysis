@@ -1,34 +1,45 @@
+pip install databricks-sql-connector
+
 import streamlit as st
 import pandas as pd
+from databricks import sql
 
-# Title
-st.title("Company and Work Title Analysis")
+# Databricks connection details
+DATABRICKS_SERVER_HOSTNAME = "adb-3738544368441327.7.azuredatabricks.net"
+DATABRICKS_HTTP_PATH = "/sql/1.0/warehouses/574203acc747d7db"
+DATABRICKS_ACCESS_TOKEN = "Yoni"
 
-# Input Section
-st.header("Choose Your Inputs")
+# Function to connect to Databricks and query data
+def get_companies_from_db():
+    query = "SELECT DISTINCT company_name FROM your_table LIMIT 100"  # Adjust query as needed
+    with sql.connect(
+        server_hostname=DATABRICKS_SERVER_HOSTNAME,
+        http_path=DATABRICKS_HTTP_PATH,
+        access_token=DATABRICKS_ACCESS_TOKEN
+    ) as connection:
+        with connection.cursor() as cursor:
+            cursor.execute(query)
+            rows = cursor.fetchall()
+    # Convert rows to a Pandas DataFrame
+    companies = pd.DataFrame(rows, columns=["Company Name"])
+    return companies
 
-# Define lists of companies and work titles
-companies = ["AA", "BB", "CC"]
-work_titles = ["aa", "bb", "cc"]
+# Streamlit App
+st.title("Role Analysis")
 
-# Dropdown for company selection with search functionality
-company = st.selectbox("Select a Company:", companies)
-
-# Dropdown for work title selection with search functionality
-work_title = st.selectbox("Select a Work Title:", work_titles)
+# Fetch companies from Databricks
+st.header("Choose Company")
+try:
+    companies_df = get_companies_from_db()
+    company_list = companies_df["Company Name"].tolist()
+    company = st.selectbox("Select a Company:", company_list)
+except Exception as e:
+    st.error(f"Error connecting to Databricks: {e}")
 
 # Button to trigger analysis
 if st.button("Analyze"):
-    if company and work_title:
-        st.write(f"Analyzing data for {company} with the title: {work_title}...")
-        
+    if company:
+        st.write(f"Analyzing data for {company}...")
         # Placeholder for analysis logic
-        results = {
-            "Metric": ["Revenue", "Employee Count", "Satisfaction Score"],
-            "Value": [1000000, 500, 4.5]
-        }
-        result_df = pd.DataFrame(results)
-        st.subheader("Analysis Results")
-        st.dataframe(result_df)
     else:
-        st.warning("Please fill in both fields.")
+        st.warning("Please select a company.")
