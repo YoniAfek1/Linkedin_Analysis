@@ -1,3 +1,5 @@
+pip install databricks-sql-connector
+
 import streamlit as st
 import pandas as pd
 from databricks import sql
