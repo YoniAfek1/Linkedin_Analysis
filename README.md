@@ -2,7 +2,7 @@
 🌟 *Enhancing the Career Decision-Making Process Using Big Data and AI*  
 
 ---
-![Uploading poster_341144368_208741140_207432865.png…]()
+![Poster](https://github.com/user-attachments/assets/68b18904-cce3-4034-9997-091e3b773f0f)
 ---
 
 ## 🗺️ **Overview**
