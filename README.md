@@ -7,22 +7,17 @@
 <table>
   <tr>
     <td>
-      <div style="display: flex; flex-direction: column; gap: 10px;">
-        <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none;">
-          <button style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; width: 100%;">🌟 Try the Career Compass</button>
-        </a>
-        <a href="https://vimeo.com/1053457943/3014490fc9?share=copy" style="text-decoration: none;">
-          <button style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; width: 100%;">📹 Watch Demo Video</button>
-        </a>
-        <a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy" style="text-decoration: none;">
-          <button style="background-color: #FF9800; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer; width: 100%;">🛠️ Technical Overview</button>
-        </a>
-      </div>
+      <ul>
+        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">Click here</a></li>
+        <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">For a demo video, click here.</a></li>
+        <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">For a Technical Overview, click here.</a></li>
+      </ul>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200" style="border-radius: 10px;"/>
+      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200"/>
     </td>
   </tr>
+
 </table>
 
 
