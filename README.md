@@ -15,7 +15,6 @@
     <td>
       <img src="https://github.com/user-attachments/assets/432f8374-a3d3-4ce2-92d4-eb2658d2e8af" alt="animalWithCompass" width="200"/>
     </td>
-      <img src="https://github.com/user-attachments/assets/1183a114-3d58-4d50-9346-d8e4352cc939" alt="animalWithCompass" width="200"/>
   </tr>
 </table>
 ---
