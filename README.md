@@ -3,7 +3,6 @@
 
 ---
 ## 🛠️ **Want to try it out?**
-## 🛠️ **Want to try it out?**
 
 <table style="width: 100%; text-align: center;">
   <tr>
