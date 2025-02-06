@@ -7,7 +7,7 @@
 <table style="width: 100%; text-align: center;">
   <tr>
     <td>
-      <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none;">
+      <a  style="text-decoration: none;">
         <div style="background-color: #007BFF; color: white; padding: 15px 20px; border-radius: 8px; font-size: 18px; font-weight: bold; margin: 10px auto; width: 80%; display: inline-block; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center;">
           🌟 The Career Compass
         </div>
