@@ -4,8 +4,6 @@
 ---
 ## 🛠️ **Want to try it out?**
 
-## 🛠️ **Want to try it out?**
-
 <table>
   <tr>
     <td>
