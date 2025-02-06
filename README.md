@@ -4,13 +4,17 @@
 ---
 ## **Want to try it out? 👇**
 
-<table style="width: 100%; border-collapse: collapse; border-spacing: 0; border: none;">
-  <tr>
+<table style="width: 100%; border-collapse: collapse; border: none;">
+    <td style="border: none;">
+      <ul style="list-style: none; padding: 0; margin: 0;">
         <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">🧭 The Career Compass</a></li>
         <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">📹 Watch the Demo Video</a></li>
         <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">🛠️ Technical Overview</a></li>
+      </ul>
+    </td>
+    <td style="border: none; text-align: center;">
       <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200" style="border: none;"/>
-  </tr>
+    </td>
 </table>
 
 ---
