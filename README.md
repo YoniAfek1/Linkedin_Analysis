@@ -4,32 +4,45 @@
 ---
 ## 🛠️ **Want to try it out?**
 
-<table style="width: 100%; text-align: center; border-collapse: separate; border-spacing: 20px;">
+<table style="width: 100%; border-collapse: separate; border-spacing: 20px;">
   <tr>
-    <td style="background-color: #E6F7FF; padding: 20px; border-radius: 12px; text-align: center;">
-      <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none; color: black; font-size: 18px; font-weight: bold;">
-        🌟 Selecting a Job Title<br>
-        <span style="font-size: 14px; font-weight: normal;">Try the Career Compass</span>
-      </a>
+    <!-- Left Column: Buttons -->
+    <td style="width: 60%; vertical-align: top;">
+      <table style="width: 100%; text-align: center; border-collapse: separate; border-spacing: 20px;">
+        <tr>
+          <td style="background-color: #E6F7FF; padding: 20px; border-radius: 12px; text-align: center;">
+            <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none; color: black; font-size: 18px; font-weight: bold;">
+              🌟 Selecting a Job Title<br>
+              <span style="font-size: 14px; font-weight: normal;">Try the Career Compass</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #E6F7FF; padding: 20px; border-radius: 12px; text-align: center;">
+            <a href="https://vimeo.com/1053457943/3014490fc9?share=copy" style="text-decoration: none; color: black; font-size: 18px; font-weight: bold;">
+              📹 Watch Demo Video<br>
+              <span style="font-size: 14px; font-weight: normal;">Learn how it works</span>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: #E6F7FF; padding: 20px; border-radius: 12px; text-align: center;">
+            <a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy" style="text-decoration: none; color: black; font-size: 18px; font-weight: bold;">
+              🛠️ Technical Overview<br>
+              <span style="font-size: 14px; font-weight: normal;">Understand the system</span>
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
-  </tr>
-  <tr>
-    <td style="background-color: #E6F7FF; padding: 20px; border-radius: 12px; text-align: center;">
-      <a href="https://vimeo.com/1053457943/3014490fc9?share=copy" style="text-decoration: none; color: black; font-size: 18px; font-weight: bold;">
-        📹 Watch Demo Video<br>
-        <span style="font-size: 14px; font-weight: normal;">Learn how it works</span>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td style="background-color: #E6F7FF; padding: 20px; border-radius: 12px; text-align: center;">
-      <a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy" style="text-decoration: none; color: black; font-size: 18px; font-weight: bold;">
-        🛠️ Technical Overview<br>
-        <span style="font-size: 14px; font-weight: normal;">Understand the system</span>
-      </a>
+
+    <!-- Right Column: Image -->
+    <td style="width: 40%; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="250" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"/>
     </td>
   </tr>
 </table>
+
 
 
 
