@@ -46,6 +46,8 @@ Workspace/
 
 ## 📋 **How to Install and Run**
 
+To use the demo [click here](https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass).
+
 ### 1️⃣ Clone the Repository
 
 ### 2️⃣ Install Dependencies
