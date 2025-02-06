@@ -3,7 +3,7 @@
 
 ---
 ## 🛠️ **Want to try our Demo?**
-[click here](https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass).
+[Click here](https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass).
 
 ---
 
