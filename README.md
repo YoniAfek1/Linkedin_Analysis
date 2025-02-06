@@ -4,20 +4,36 @@
 ---
 ## **Want to try it out? 👇**
 
-<table style="width: 100%; border-collapse: collapse; border: none;">
+<table style="width: 100%; border-collapse: separate; border-spacing: 0px;">
   <tr>
-    <td style="border: none;">
+    <!-- Links Section -->
+    <td style="text-align: left; vertical-align: top; padding: 0;">
       <ul style="list-style: none; padding: 0; margin: 0;">
-        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">🧭 The Career Compass</a></li>
-        <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">📹 Watch the Demo Video</a></li>
-        <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">🛠️ Technical Overview</a></li>
+        <li style="margin-bottom: 15px;">
+          <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none; color: #007BFF; font-size: 16px; font-weight: bold;">
+            🧭 The Career Compass
+          </a>
+        </li>
+        <li style="margin-bottom: 15px;">
+          <a href="https://vimeo.com/1053457943/3014490fc9?share=copy" style="text-decoration: none; color: #007BFF; font-size: 16px; font-weight: bold;">
+            📹 Watch the Demo Video
+          </a>
+        </li>
+        <li>
+          <a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy" style="text-decoration: none; color: #007BFF; font-size: 16px; font-weight: bold;">
+            🛠️ Technical Overview
+          </a>
+        </li>
       </ul>
     </td>
-    <td style="border: none; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200" style="border: none;"/>
+
+    <!-- Image Section -->
+    <td style="text-align: center; padding: 0;">
+      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200" style="border-radius: 8px;"/>
     </td>
   </tr>
 </table>
+
 
 ---
 ## 🗺️ **Abstract**
