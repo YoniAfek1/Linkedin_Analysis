@@ -1,6 +1,8 @@
 # 🧭 **Career Compass**
 🌟 *Enhancing the Career Decision-Making Process Using Big Data and AI*  
 
+![animalWithCompass](https://github.com/user-attachments/assets/432f8374-a3d3-4ce2-92d4-eb2658d2e8af)
+
 ---
 ## 🛠️ **Want to try it out?**
 [Click here.](https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass)
