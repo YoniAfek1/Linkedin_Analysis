@@ -44,7 +44,12 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-Notice you will need your own GEMINI API KEY to run the Gemini section
+### If you want to run the code on DadaBricks:
+- Import National_Ocupational.xlsx into your workspace, under your user
+- Run every cell until "Creating tables for the Demo" and then skip to "Pipeline"
+- Continue to run cells as writen
+
+Notice you will need your own GEMINI API KEY to run the Gemini sections
 
 ---
 
