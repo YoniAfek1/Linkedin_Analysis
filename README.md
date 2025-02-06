@@ -3,28 +3,32 @@
 
 ---
 ## 🛠️ **Want to try it out?**
+## 🛠️ **Want to try it out?**
 
-<table>
+<table style="width: 100%; text-align: center;">
   <tr>
     <td>
-      <div style="display: flex; flex-direction: column; gap: 20px;">
-        <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none;">
-          <button style="background-color: #007BFF; color: white; border: none; padding: 15px 30px; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 100%;">🌟 Try the Career Compass</button>
-        </a>
-        <a href="https://vimeo.com/1053457943/3014490fc9?share=copy" style="text-decoration: none;">
-          <button style="background-color: #007BFF; color: white; border: none; padding: 15px 30px; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 100%;">📹 Watch Demo Video</button>
-        </a>
-        <a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy" style="text-decoration: none;">
-          <button style="background-color: #007BFF; color: white; border: none; padding: 15px 30px; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 100%;">🛠️ Technical Overview</button>
-        </a>
-      </div>
+      <a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass" style="text-decoration: none;">
+        <div style="background-color: #007BFF; color: white; padding: 15px 20px; border-radius: 8px; font-size: 18px; font-weight: bold; margin: 10px auto; width: 80%; display: inline-block; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center;">
+          🌟 Try the Career Compass
+        </div>
+      </a>
+      <a href="https://vimeo.com/1053457943/3014490fc9?share=copy" style="text-decoration: none;">
+        <div style="background-color: #007BFF; color: white; padding: 15px 20px; border-radius: 8px; font-size: 18px; font-weight: bold; margin: 10px auto; width: 80%; display: inline-block; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center;">
+          📹 Watch Demo Video
+        </div>
+      </a>
+      <a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy" style="text-decoration: none;">
+        <div style="background-color: #007BFF; color: white; padding: 15px 20px; border-radius: 8px; font-size: 18px; font-weight: bold; margin: 10px auto; width: 80%; display: inline-block; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center;">
+          🛠️ Technical Overview
+        </div>
+      </a>
     </td>
     <td>
       <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="250" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"/>
     </td>
   </tr>
 </table>
-
 
 ---
 
