@@ -7,7 +7,7 @@
   <tr>
     <td>
       <ul>
-        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">Want to try it out?</a></li>
+        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">Click here</a></li>
         <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">For a demo video, click here.</a></li>
         <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">For a Technical Overview, click here.</a></li>
       </ul>
