@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-### If you want to run the code on DadaBricks:
+### If you want to run the code on DataBricks:
 - Import National_Ocupational.xlsx into your workspace, under your user
 - Run every cell until "Creating tables for the Demo" and then skip to "Pipeline"
 - Continue to run cells as writen
