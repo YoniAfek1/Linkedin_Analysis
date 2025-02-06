@@ -13,7 +13,7 @@
       </ul>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/432f8374-a3d3-4ce2-92d4-eb2658d2e8af" alt="animalWithCompass" width="150"/>
+      <img src="https://github.com/user-attachments/assets/432f8374-a3d3-4ce2-92d4-eb2658d2e8af" alt="animalWithCompass" width="300"/>
     </td>
   </tr>
 </table>
