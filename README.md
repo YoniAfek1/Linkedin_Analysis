@@ -27,14 +27,6 @@
       </ul>
     </td>
 
-    <!-- Image Section -->
-    <td style="text-align: center; padding: 0;">
-      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200" style="border-radius: 8px;"/>
-    </td>
-  </tr>
-</table>
-
-
 ---
 ## 🗺️ **Abstract**
 
