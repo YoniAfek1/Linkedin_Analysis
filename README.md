@@ -2,6 +2,11 @@
 🌟 *Enhancing the Career Decision-Making Process Using Big Data and AI*  
 
 ---
+## 🛠️ **Want to try our Demo?**
+[click here](https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass).
+
+---
+
 ![Poster](https://github.com/user-attachments/assets/68b18904-cce3-4034-9997-091e3b773f0f)
 ---
 
@@ -45,8 +50,6 @@ Workspace/
 ---
 
 ## 📋 **How to Install and Run**
-
-To use the demo [click here](https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass).
 
 ### 1️⃣ Clone the Repository
 
