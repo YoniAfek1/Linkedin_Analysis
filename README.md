@@ -8,11 +8,9 @@
   <tr>
     <td>
       <ul>
-        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">⚡ The Career Compass</a></li>
+        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">🧭 The Career Compass</a></li>
         <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">📹 Watch the Demo Video</a></li>
-        <span style="font-size: 14px; font-weight: normal;">Learn how it works</span>
-        <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">🛠️ Technical Overview, click here.</a></li>
-        <span style="font-size: 14px; font-weight: normal;">Understand the system</span>
+        <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">🛠️ Technical Overview</a></li>
       </ul>
     </td>
     <td>
