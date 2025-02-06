@@ -22,7 +22,7 @@
 
 
 ---
-## 🗺️ **Overview**
+## 🗺️ **Abstract**
 
 Career Compass is a cutting-edge project that leverages **Big Data** and **AI** to assist individuals in making informed career decisions. It provides users with personalized insights, job recommendations, and career statistics in interactive way. Designed as a potential **feature for LinkedIn**, it not only enhances career exploration and decision-making but also helps users build **meaningful professional connections** by identifying relevant mentors and collaborators on LinkedIn.
 
