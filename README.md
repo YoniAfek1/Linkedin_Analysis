@@ -60,27 +60,11 @@ streamlit run app.py
 
 ---
 
-## 📊 **Visual Highlights**
-
-- **Statistics**: Employment rates, wages, and job durations.  
-- **Mentor Recommendations**: Personalized suggestions based on current and past employees.  
-- **Career Path Analysis**: Typical paths for specific job roles.  
-
----
-
 ## 🌟 **Contributors**
 
 - **Anna Zavin**  
 - **Gefen Pustelnic**  
 - **Yonathan Afek**  
-
----
-
-## 🛠️ **Future Enhancements**
-
-- **Real-time Updates**: Continuous updates for career statistics.  
-- **Enhanced Insights**: Deeper analysis of mentor connections and career trends.  
-- **Additional Domains**: Support for new datasets and industries.  
 
 ---
 
