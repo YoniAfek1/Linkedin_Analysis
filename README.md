@@ -56,6 +56,6 @@ streamlit run app.py
 ---
 
 💻 Built with passion by **Team Career Compass**!  
-Let us help you navigate your career path! 🚀  
+Let us help you navigate your career path!  
 
 --- 
