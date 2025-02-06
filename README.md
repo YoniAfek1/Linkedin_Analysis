@@ -7,6 +7,8 @@
 
 [For a demo video, click here.](https://vimeo.com/1053457943/3014490fc9?share=copy)
 
+[For a Technical Overview, click here.](https://vimeo.com/1054177858/66fe4f3f9c?share=copy)
+
 ---
 
 ## 🗺️ **Overview**
