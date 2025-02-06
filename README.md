@@ -3,18 +3,20 @@
 
 ---
 ## 🛠️ **Want to try it out?**
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div>
-    <ul>
-      <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">Want to try it out?</a></li>
-      <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">For a demo video, click here.</a></li>
-      <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">For a Technical Overview, click here.</a></li>
-    </ul>
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/432f8374-a3d3-4ce2-92d4-eb2658d2e8af" alt="animalWithCompass" width="150"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">Want to try it out?</a></li>
+        <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">For a demo video, click here.</a></li>
+        <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">For a Technical Overview, click here.</a></li>
+      </ul>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/432f8374-a3d3-4ce2-92d4-eb2658d2e8af" alt="animalWithCompass" width="150"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
