@@ -34,21 +34,6 @@ Career Compass is a cutting-edge project that leverages **Big Data** and **AI** 
 
 ---
 
-## 📂 **Project Structure**
-
-```
-Workspace/
-├── .env                                 # Environment variables (e.g., API keys)
-├── .gitignore                           # Files to exclude from version control
-├── All_job_roles_scrapped.xlsx          # Scraped job roles data
-├── job_title_mapping.parquet            # Mapped job titles
-├── National_Occupational.xlsx           # U.S. Bureau of Labor Statistics data
-├── app.py                               # Main Streamlit application
-└── Project/                             # Project-related code and resources
-```
-
----
-
 ## 📋 **How to Install and Run**
 
 ### 1️⃣ Clone the Repository
