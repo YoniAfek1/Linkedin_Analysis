@@ -5,13 +5,14 @@
 ## **Want to try it out? 👇**
 
 <table style="width: 100%;"border: hidden;">
+
     <td style="border: hidden;">
         <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">🧭 The Career Compass</a></li>
         <li><a href="https://vimeo.com/1053457943/3014490fc9?share=copy">📹 Watch the Demo Video</a></li>
         <li><a href="https://vimeo.com/1054177858/66fe4f3f9c?share=copy">🛠️ Technical Overview</a></li>
     </td>
     <td style= text-align: center;">
-      <img src="https://github.com/user-attachments/assets/006facb7-fba8-4d6d-a829-6254837d63f6" alt="animalWithCompass" width="200" style="border: none;"/>
+      <img src="https://github.com/user-attachments/assets/7bd2a6f3-1642-4e2d-958f-f33aa4bc386c" alt="animalWithCompass" width="200" style="border: none;"/>
     </td>
 </table>
 
