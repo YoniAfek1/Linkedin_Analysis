@@ -4,7 +4,7 @@
 ---
 ## **Want to try it out? 👇**
 
-<table style="width: 100%;"border: hidden;">
+<table style="width: 100%; border: hidden;">
 
     <td style="border: hidden;">
         <li><a href="https://career-compass-3738544368441327.7.azure.databricksapps.com/#career-compass">🧭 The Career Compass</a></li>
